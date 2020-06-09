@@ -408,7 +408,17 @@ header .hero-contain::after {
 }
 
 .section-two {
-  background-color: #cfff81;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 100px;
+  font-weight: 600;
   margin-top: 380px;
   min-height: 100vh;
 }

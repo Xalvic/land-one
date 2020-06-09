@@ -321,7 +321,11 @@ header {
 }
 
 .section-two {
-  background-color: rgb(207, 255, 129);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  font-weight: 600;
   margin-top: 380px;
   min-height: 100vh;
 }
